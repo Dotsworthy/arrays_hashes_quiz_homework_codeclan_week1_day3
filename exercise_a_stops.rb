@@ -11,7 +11,7 @@ p stops.include?("Falkirk High")
 p stops.fetch(2)
 p stops[2]
 p stops.values_at(2)#8. Show as many ways as you can to return "Falkirk High" from the array?
-p stops.reverse!#9. Reverse the positions of the stops in the array
+p stops.reverse!()#9. Reverse the positions of the stops in the array
 
 for stop in stops
   puts stop
